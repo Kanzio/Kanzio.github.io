@@ -577,7 +577,7 @@
   \*-----------------------------------*/
   
   .pricing-card {
-    padding: 40px 50px;
+    padding: 40px 0px;
     background-color: var(--white);
     text-align: center;
     transition: var(--transition-2);
@@ -587,7 +587,7 @@
   .pricing-card.bundle { box-shadow: var(--shadow-4); }
   
   .pricing-card:is(:hover, :focus-within) { transform: translateY(-10px); }
-  
+
   .pricing-card .price {
     font-family: var(--ff-philosopher);
     font-size: var(--fs-1);
@@ -604,34 +604,6 @@
   
   .pricing-card .btn { margin-inline: auto; }
   
-  
-  
-  
-  
-  /*-----------------------------------*\
-    #AUTHOR
-  \*-----------------------------------*/
-  
-  .author { background-color: var(--seashell); }
-  
-  .author .container {
-    display: grid;
-    gap: 40px;
-  }
-  
-  .author :is(.section-subtitle, .section-title) { text-align: left; }
-  
-  .author-content {
-    background-color: var(--white);
-    padding: 30px;
-  }
-  
-  .author-name {
-    font-size: var(--fs-6);
-    margin-block-end: 30px;
-  }
-  
-  .author .section-text { font-size: unset; }  
   
   /*-----------------------------------*\
     #CONTACT
@@ -816,19 +788,6 @@
   
     .tab-card.active { height: 50vh; }
   
-  
-  
-    /**
-     * ACHIEVEMENT
-     */
-  
-    .achievement-card { display: flex; }
-  
-    .achievement-card > * { width: 50%; }
-  
-    .achievement-card .card-content { padding-block: 30px; }
-  
-    .achievement-card .card-title { margin-block-end: 20px; }
   
   
   
